@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FD8181"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:background="@drawable/Graphic"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How To Visit Us"
+        android:textColor="#000000"
+        android:textSize="12pt"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="390dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="387dp"
+        android:layout_height="75dp"
+        android:text="Welcome to invino,
+your ultimate travel companion designed to connect travelers with amazing destinations and seamless travel experiences. Discover a variety of travel options and make your journey unforgettable."
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="298dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Why Us"
+        android:textColor="#FFFFFF"
+        android:textSize="12pt"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="250dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:text="1. Download the App : Invino is available on the App Store and Google Play. "
+        android:textColor="#000000"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="437dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="44dp"
+        android:text="2. Register for free and create your profile to start planning and booking your trips."
+        android:textColor="#000000"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="484dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="44dp"
+        android:text="3. Start Exploring and Booking: Find the destinations you want to visit or plan your entire trip with ease."
+        android:textColor="#000000"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="541dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Now"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="620dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
